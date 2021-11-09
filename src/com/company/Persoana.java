@@ -7,7 +7,8 @@ public class Persoana {
     String nume;
     LocalDate dataInregistrareAbonament;
     TipAbonament tipAbonament;
-    
+
+
     public String verificare1Luna(){
         String rezultatul;
         if (tipAbonament.equals(TipAbonament.lunar)){
